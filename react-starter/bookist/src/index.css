@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.app{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
