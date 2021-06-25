@@ -36,7 +36,7 @@ export default class App extends Component {
     const filteredBooks = books.filter((book) => {
       return book.title.toLowerCase().includes(input.toLowerCase()) || book.author.toLowerCase().includes(input.toLowerCase())
     });
-    this.setState({books:filteredBooks});
+    this.setState({books: filteredBooks});
   }
 
   reset(){

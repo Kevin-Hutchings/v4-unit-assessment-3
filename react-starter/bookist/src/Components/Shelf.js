@@ -10,13 +10,11 @@ export default function Shelf ({shelf, remove}) {
    if(shelf.length === 0){
       return(
          <div>
-            <h1>Your Shelf</h1>
-            <h3>Click on a book cover to add it to the shelf.</h3>
+            <h1> Your Shelf </h1>
+            <h3> Click on a book cover to add it to the shelf. </h3>
          </div>
       )
-   };
-
-   if(shelf.length > 0){
+   } else {
       return(
          <section className="shelf">
             <h1 > Your Shelf </h1>
