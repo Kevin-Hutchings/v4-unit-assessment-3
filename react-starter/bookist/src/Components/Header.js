@@ -1,14 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-export default class Header extends Component {
-   constructor(){
-      super();
-      this.state = {};
-   }
-
-   render(){
-      return(
+export default function Header(){
+   return(
+      <header className="header">
          <h1> bookist </h1>
-      )
-   };
+      </header> 
+   );
 }
